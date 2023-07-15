@@ -1,10 +1,12 @@
 package units;
 
+import java.util.ArrayList;
+
 public abstract class units{
-    public float maxHP, curHP;
-    int att, def;
-    int[] damage;
-    String name;
+    this.public float maxHP, curHP;
+    this.int att, def;
+    this.int[] damage;
+    this.String name;
 }
 public class units {
 
@@ -33,13 +35,15 @@ public class units {
         }
         else return false;
     }
-    public int damage;
 
-    public String name;
 
     public int move(){
         while (hasAP()){
 
         }
     }
+    String getInfo(){
+        return this.name;
 }
+
+
