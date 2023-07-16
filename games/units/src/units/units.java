@@ -7,6 +7,7 @@ public abstract class units{
     this.int att, def;
     this.int[] damage;
     this.String name;
+    this.Coordinates = new Coordinates(int x, int y);
 }
 public class units {
 
