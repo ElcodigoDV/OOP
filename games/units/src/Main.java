@@ -2,7 +2,9 @@ import units.*;
 import java.util.ArrayList;
 import java.util.Random;
 
+
 public class Main {
+    View view = new View;
     public static void main(String[] args) {
         Archer archer = new Archer ("Vasya");
         ArrayList<units> list = new ArrayList();
